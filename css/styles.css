@@ -53,6 +53,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 
 .contacts {
