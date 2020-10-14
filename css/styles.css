@@ -5,7 +5,19 @@
   --white-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0;
+
   background-color: var(--white-color);
   color: var(--title-text-color);
 
@@ -101,6 +113,10 @@ button {
 }
 
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--white-color);
   background-color: var(--accent-color);
 
@@ -177,3 +193,8 @@ button {
 .main-portfolio h2 {
   color: #000000;
 }
+
+/* .box {
+  background-color: tomato;
+  outline: 2px solid tomato;
+} */
