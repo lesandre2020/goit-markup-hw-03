@@ -41,7 +41,17 @@ button {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
 }
 
 .logo {
@@ -82,10 +92,13 @@ button {
 }
 
 .main-section {
+  text-align: center;
   background-color: #2f303a;
 }
 
 .main-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--white-color);
   font-style: normal;
   text-decoration: none;
@@ -106,6 +119,12 @@ button {
   background-color: #f5f4fa;
 }
 
+.gallery {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 94px 0px;
+}
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -116,6 +135,8 @@ button {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
 
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -128,6 +149,13 @@ button {
 }
 
 .button-portfolio {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
+  border-color: #f5f4fa;
+
   color: var(--title-text-color);
   background-color: #f5f4fa;
 
@@ -141,13 +169,14 @@ button {
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  border-color: var(--accent-color);
 }
 
 .main-section .main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
