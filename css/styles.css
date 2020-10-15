@@ -54,6 +54,11 @@ button {
   width: 1200px;
 }
 
+/* .header-item {
+  display: inline-flex;
+  justify-content: space-between;
+}  */
+
 .logo {
   color: #000000;
 
@@ -61,6 +66,8 @@ button {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+
+  margin-right: 93px;
 }
 
 .logo-span {
@@ -68,7 +75,13 @@ button {
 }
 
 .header-nav {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
+
+  /* align-items: center; */
 
   font-weight: 500;
   font-size: 14px;
@@ -76,6 +89,8 @@ button {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+
+  cursor: pointer;
 }
 
 .contacts {
@@ -94,6 +109,8 @@ button {
 .main-section {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title {
@@ -157,6 +174,8 @@ button {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
@@ -270,6 +289,12 @@ button {
   display: flex;
 }
 
+.heder-displflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .main-portfolio .list {
   display: inline-flex;
   flex-wrap: wrap;
@@ -277,6 +302,10 @@ button {
 
 nav .list li {
   margin-right: 50px;
+}
+
+.list .item + .item {
+  margin-left: 50px;
 }
 
 main .list li {
