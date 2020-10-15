@@ -119,12 +119,6 @@ button {
   background-color: #f5f4fa;
 }
 
-.gallery {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 94px 0px;
-}
-
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -227,3 +221,24 @@ button {
   background-color: tomato;
   outline: 2px solid tomato;
 } */
+
+.gallery h2,
+.gallery h3,
+.gallery p {
+  padding: 0;
+  margin: 0;
+}
+
+.main-command li {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 270px;
+  height: 368px;
+}
+
+.main-portfolio li {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 370px;
+  height: 404px;
+}
