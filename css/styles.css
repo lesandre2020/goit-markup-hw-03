@@ -282,8 +282,18 @@ footer .list {
   padding-top: 94px;
 }
 
+.main-command {
+  padding-bottom: 94px;
+}
+
+.buttons {
+  justify-content: center;
+  padding-top: 0;
+}
+
 .gallery,
-.main-command gallery {
+.main-command gallery,
+.main-content gallery {
   padding-top: 50px;
 }
 
@@ -334,3 +344,11 @@ nav .list li:last-child {
   margin-right: 0;
   background-color: tomato;
 } */
+
+.list-portfolio {
+  border: 1px solid #eeeeee;
+}
+
+.header-line {
+  border-bottom: 1px solid #ececec;
+}
