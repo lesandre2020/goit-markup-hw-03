@@ -271,7 +271,7 @@ footer {
 
 .main-command li {
   margin-right: 30px;
-  margin-bottom: 30px;
+
   width: 270px;
   height: 368px;
 }
@@ -347,9 +347,9 @@ nav .list li {
   margin-left: 331px;
 }
 
-main .list li {
+/* main .list li {
   margin-right: 30px;
-}
+} */
 
 nav .list li:last-child {
   margin-right: 0;
@@ -401,4 +401,8 @@ main .buttons li {
 
 .advantages {
   padding-bottom: 0;
+}
+
+.study li {
+  margin-right: 30px;
 }
