@@ -276,7 +276,7 @@ footer {
   height: 368px;
 }
 
-.main-portfolio li {
+.main-portfolio .list-portfolio {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
@@ -289,11 +289,13 @@ footer {
   padding-top: 94px;
 } */
 
-.main-command {
+.main-command,
+.main-content {
   padding-bottom: 94px;
 }
 
 .buttons {
+  display: flex;
   justify-content: center;
   padding-top: 0;
 }
@@ -377,4 +379,20 @@ nav .list li:last-child {
 
 main .buttons li {
   margin-right: 8px;
+}
+
+.list-command h3,
+.list-command p {
+  margin-top: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.list-command h3 {
+  margin-top: 30px;
+}
+
+.list-command {
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
