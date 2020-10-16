@@ -406,3 +406,12 @@ main .buttons li {
 .study li {
   margin-right: 30px;
 }
+
+.advantages li {
+  margin-right: 30px;
+  justify-content: space-between;
+}
+
+.advantages li:nth-child(4) {
+  margin-right: 0px;
+}
