@@ -49,7 +49,7 @@ button {
 .conteiner {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
+
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
@@ -290,20 +290,27 @@ footer {
 } */
 
 .main-command,
-.main-content {
-  padding-bottom: 94px;
+.main-content,
+.main-portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
+
+/* .advantages {
+  margin-bottom: 0px;
+} */
 
 .buttons {
   display: flex;
   justify-content: center;
   padding-top: 0;
+  margin-top: 94px;
 }
 
 .gallery,
 .main-command gallery,
 .main-content gallery {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .list-command:nth-child(4) {
