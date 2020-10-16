@@ -292,19 +292,14 @@ footer {
 .main-command,
 .main-content,
 .main-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
-/* .advantages {
-  margin-bottom: 0px;
-} */
 
 .buttons {
   display: flex;
   justify-content: center;
   padding-top: 0;
-  margin-top: 94px;
 }
 
 .gallery,
@@ -402,4 +397,8 @@ main .buttons li {
 .list-command {
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
+}
+
+.advantages {
+  padding-bottom: 0;
 }
